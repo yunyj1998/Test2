@@ -3,26 +3,28 @@ import streamlit as st
 from PIL import Image
 
 # Confit
-st.set_page_config(page_title='YYJ Test ', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title='YYJ Test', page_icon=':bar_chart:', layout='wide')
 
-# Title
-st.title("잡다한 테스트 대시보드")
+#Title
+st.title("yyj test Portfolio dashboard")
 
 # Content
-c1, c2, c3 = st.columns(3)
-c1.image(Image.open("images/1.png"))
-c2.image(Image.open("images/2.png"))
-c3.image(Image.open("images/3.png"))
+c1  = st.columns(1)
+
+image1 = Image.open("images/123.png.").resize((200, 200))
+
+
+c1.image(image1)
+
 
 st.write(
     """
-    아무글 이나 일단  써보는 ***대시보드*** 테스트 페이지 이다.
-    이페이지는 메인 페이지가 될것이며 꾸미는것은  어떻게 될지 아직 모르는상태.
-
+    ### Welcome to my portfolio site.
+**This site was created by a young man in his 20s who dreams of becoming a data analyst.**
     """
 )
 
-st.subheader('Methodology')
+st.subheader('pt')
 st.write(
     """
     The data for this cross-chain comparison were selected from the [**Flipside Crypto**](https://flipsidecrypto.xyz)
