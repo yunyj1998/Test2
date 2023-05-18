@@ -11,7 +11,7 @@ st.title('Cross Chain Monitoring Tool')
 # Content
 c1, c2 = st.columns(2)
 c1.image(Image.open("C:\Users\YONSAI\Desktop\Test2\이미지\1.png"))
-c2.image(Image.open('"C:\Users\YONSAI\Desktop\Test2\이미지\2.png"'))
+c2.image(Image.open("C:\Users\YONSAI\Desktop\Test2\이미지\2.png"))
 
 
 st.write(
