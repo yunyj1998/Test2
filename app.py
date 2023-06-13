@@ -31,7 +31,7 @@ st.write(
 5. project code review
 6. Introduction to GitHub and blogging
 7. other work experience
-8.The road ahead
+8. The road ahead
 9. other contacts
     """
 )
@@ -57,4 +57,3 @@ with c2:
     st.info('**NAVER brog: [post](https://blog.naver.com/yunyj1998)**', icon="💻")
 with c3:
     st.info('**Second job : [Video pd](https://www.notion.so/MR-_YUN-100d23b1a85b42d2b9e29262f02e9011?pvs=4)**', icon="🧠")
-gi
