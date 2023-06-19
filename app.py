@@ -2,23 +2,23 @@
 import streamlit as st
 from PIL import Image
 
-# Confit
+#상단 아이콘 상단 이름 레이아웃
 st.set_page_config(page_title='YYJ Test', page_icon=':bar_chart:', layout='wide')
 
 #Title
 st.title("yyj test Portfolio dashboard")
-
+# 프로필 사진
 image1 = Image.open("images/123.png").resize((1000, 600))
 
 st.image(image1)
-
+#한줄 소개
 st.write(
     """
     ### Welcome to my portfolio site.
     **This site was created by a young man in his 20s who dreams of becoming a data analyst.**
     """
 )
-
+# 포트폴리오 구성
 st.subheader('Portfolio contents')
 st.write(
     """
@@ -35,7 +35,7 @@ st.write(
 9. other contacts
     """
 )
-
+# 학습 기록
 st.subheader('Record your learning')
 st.write(
     """
@@ -49,7 +49,7 @@ Learning period 28 December 2022 - 23 June 2023 Course
 We learned Python, R language, SQL, Hadoop, Java, Linux, etc. but the core of our course was Python
     """
 )
-
+# 블로그 주소
 c1, c2, c3 = st.columns(3)
 with c1:
     st.info('**GitHub: [MR yun ](https://github.com/yunyj1998)**', icon="💡")
